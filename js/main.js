@@ -44,29 +44,6 @@
 // Problem 209
 
 
-// let text = "Bu manfiy son - 22 -";
-// let num = "";
-
-// function showIt(...text){
-//   let hyphen = false;
-//   text.forEach((item) => {
-//     if(Number.isInteger(Number(item))){
-//       Number(num += item);
-//     }
-//     if(item.includes("-")){
-//       hyphen = true;
-//     }
-//   })
-//   if(num > 0 && hyphen == true){
-//     return Number(-num);
-//   } else if(num > 0){
-//     return Number(num);
-//   } else{
-//     return null;
-//   }
-// }
-
-// console.log(showIt(...text));
 
 
 // Problem 215
@@ -95,13 +72,13 @@
 // let arr = [7, 11, 17, 23, 31, 37];
 
 // function min(arr){
-//   let small = arr[0];
+//   let s = arr[0];
 //   arr.forEach((item) => {
-//     if(item < small){
-//       small = item;
+//     if(item < s){
+//       s = item;
 //     }
 //   })
-//   return small;
+//   return s;
 // }
 
 // console.log(min(arr));
@@ -126,7 +103,7 @@
 // Problem 218
 
 
-// let n = [1, 2, 3];
+// let n = [1, [2, [3, 4], 5], 6];
 
 // function flatArray(n){
 //   n = String(n);
