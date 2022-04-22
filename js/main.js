@@ -125,12 +125,12 @@
 
 // let n = 18;
 
-// let recursiveFunction = function(n) {
+// let reverse = function(n) {
 //     if(n == 1) return 1;
-//     return n * recursiveFunction(n - 1);
+//     return n * reverse(n - 1);
 // }
 
-// console.log(recursiveFunction(n));
+// console.log(reverse(n));
 
 
 // Problem 220
@@ -138,9 +138,9 @@
 
 // let n = 35;
 
-// let recursiveFunction = function(n) {
+// let rev = function(n) {
 //     if(n == 1) return 1;
-//     return n * recursiveFunction(n - 1);
+//     return n * rev(n - 1);
 // }
 
-// console.log(recursiveFunction(n));
+// console.log(rev(n));
